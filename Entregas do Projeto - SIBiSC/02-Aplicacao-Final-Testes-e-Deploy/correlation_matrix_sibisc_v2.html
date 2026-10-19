@@ -1,0 +1,136 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+.wrap{padding:1rem 0;font-family:var(--font-sans)}
+h2{font-size:18px;font-weight:500;color:var(--color-text-primary);margin-bottom:4px}
+.sub{font-size:13px;color:var(--color-text-secondary);margin-bottom:20px}
+.legend{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:20px}
+.legend-item{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--color-text-secondary)}
+.dot{width:12px;height:12px;border-radius:3px;flex-shrink:0}
+table{width:100%;border-collapse:collapse;font-size:12px}
+thead th{font-size:11px;font-weight:500;color:var(--color-text-secondary);text-align:center;padding:6px 4px;border-bottom:0.5px solid var(--color-border-tertiary);white-space:nowrap}
+thead th.row-h{text-align:left;min-width:210px}
+tbody td{padding:5px 4px;border-bottom:0.5px solid var(--color-border-tertiary);text-align:center;vertical-align:middle}
+tbody td.label{text-align:left;font-size:12px;color:var(--color-text-primary);padding-left:0;line-height:1.4}
+tbody td.section{text-align:left;font-size:11px;font-weight:500;color:var(--color-text-secondary);padding:12px 0 4px;border-bottom:none;letter-spacing:.02em;text-transform:uppercase}
+tbody tr:hover td:not(.section){background:var(--color-background-secondary)}
+.chip{display:inline-flex;align-items:center;justify-content:center;width:26px;height:22px;border-radius:4px;font-size:11px;font-weight:500}
+.ok{background:#EAF3DE;color:#3B6D11}
+.partial{background:#FAEEDA;color:#854F0B}
+.missing{background:#FCEBEB;color:#A32D2D}
+.na{background:var(--color-background-secondary);color:var(--color-text-secondary)}
+.new-row td{background:color-mix(in srgb,var(--color-background-secondary) 60%,transparent)}
+.note{font-size:11px;color:var(--color-text-secondary);margin-top:16px;line-height:1.6;padding:10px 12px;background:var(--color-background-secondary);border-radius:var(--border-radius-md)}
+.badge-new{display:inline-block;font-size:10px;font-weight:500;background:#B5D4F4;color:#0C447C;border-radius:3px;padding:1px 5px;margin-left:6px;vertical-align:middle}
+@media(prefers-color-scheme:dark){
+.ok{background:#27500A;color:#C0DD97}
+.partial{background:#633806;color:#FAC775}
+.missing{background:#791F1F;color:#F7C1C1}
+.badge-new{background:#0C447C;color:#B5D4F4}
+}
+</style>
+<div class="wrap">
+<h2>Matriz de correlação — SIBiSC <span class="badge-new">v2</span></h2>
+<p class="sub">Specs (professora) × Relatório × Repositório GitHub — inclui login, validação e JWT</p>
+
+<div class="legend">
+  <span class="legend-item"><span class="dot ok"></span>Atendido</span>
+  <span class="legend-item"><span class="dot partial"></span>Parcial / documentado mas não implementado</span>
+  <span class="legend-item"><span class="dot missing"></span>Ausente / faltando</span>
+  <span class="legend-item"><span class="dot na"></span>N/A</span>
+</div>
+
+<table>
+<thead>
+<tr>
+  <th class="row-h">Requisito</th>
+  <th>Relatório</th>
+  <th>Repo / código</th>
+  <th>App deployed</th>
+</tr>
+</thead>
+<tbody>
+
+<tr><td class="section" colspan="4">Entrega 1 — já entregue</td></tr>
+<tr><td class="label">Capa com título + integrantes + Nº USP</td><td><span class="chip ok">✓</span></td><td><span class="chip na">—</span></td><td><span class="chip na">—</span></td></tr>
+<tr><td class="label">Sumário</td><td><span class="chip ok">✓</span></td><td><span class="chip na">—</span></td><td><span class="chip na">—</span></td></tr>
+<tr><td class="label">Seção 1 — problema + objetivo do app</td><td><span class="chip ok">✓</span></td><td><span class="chip na">—</span></td><td><span class="chip na">—</span></td></tr>
+<tr><td class="label">Seção 1 — usuários do sistema (personas)</td><td><span class="chip ok">✓</span></td><td><span class="chip na">—</span></td><td><span class="chip na">—</span></td></tr>
+<tr><td class="label">Seção 2 — user stories com parágrafo descritivo</td><td><span class="chip ok">✓</span></td><td><span class="chip na">—</span></td><td><span class="chip na">—</span></td></tr>
+<tr><td class="label">Seção 2 — protótipos (Figma) linkados</td><td><span class="chip ok">✓</span></td><td><span class="chip na">—</span></td><td><span class="chip na">—</span></td></tr>
+<tr><td class="label">Seção 3 — análise comparativa de 3 frameworks</td><td><span class="chip ok">✓</span></td><td><span class="chip na">—</span></td><td><span class="chip na">—</span></td></tr>
+<tr><td class="label">Seção 3 — justificativa da escolha do framework</td><td><span class="chip ok">✓</span></td><td><span class="chip na">—</span></td><td><span class="chip na">—</span></td></tr>
+<tr><td class="label">Seção 7 — dificuldades e aprendizados (entrega 1)</td><td><span class="chip missing">✗</span></td><td><span class="chip na">—</span></td><td><span class="chip na">—</span></td></tr>
+<tr><td class="label">Anexo 1 — slides da apresentação 1</td><td><span class="chip partial">~</span></td><td><span class="chip na">—</span></td><td><span class="chip na">—</span></td></tr>
+
+<tr><td class="section" colspan="4">Seção 4 — Desenvolvimento do aplicativo</td></tr>
+<tr><td class="label">Tecnologias front-end descritas</td><td><span class="chip missing">✗</span></td><td><span class="chip ok">✓</span></td><td><span class="chip na">—</span></td></tr>
+<tr><td class="label">Tecnologias back-end descritas</td><td><span class="chip missing">✗</span></td><td><span class="chip ok">✓</span></td><td><span class="chip na">—</span></td></tr>
+<tr><td class="label">Estrutura do código explicada</td><td><span class="chip missing">✗</span></td><td><span class="chip ok">✓</span></td><td><span class="chip na">—</span></td></tr>
+<tr><td class="label">Código de integração com banco de dados</td><td><span class="chip missing">✗</span></td><td><span class="chip partial">~</span></td><td><span class="chip na">—</span></td></tr>
+<tr><td class="label">Link para repositório GitHub</td><td><span class="chip missing">✗</span></td><td><span class="chip ok">✓</span></td><td><span class="chip na">—</span></td></tr>
+<tr><td class="label">Link para vídeo demo (web + Android + iOS)</td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td><td><span class="chip na">—</span></td></tr>
+<tr><td class="label">App roda em navegador web</td><td><span class="chip missing">✗</span></td><td><span class="chip ok">✓</span></td><td><span class="chip ok">✓</span></td></tr>
+<tr><td class="label">App roda em Android</td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+<tr><td class="label">App roda em iOS</td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+
+<tr><td class="section" colspan="4">Seção 5 — Testes e segurança</td></tr>
+<tr><td class="label">Casos de teste funcional (Given-When-Then)</td><td><span class="chip missing">✗</span></td><td><span class="chip ok">✓</span></td><td><span class="chip na">—</span></td></tr>
+<tr><td class="label">Resultados dos testes funcionais documentados</td><td><span class="chip missing">✗</span></td><td><span class="chip partial">~</span></td><td><span class="chip na">—</span></td></tr>
+<tr><td class="label">Vulnerabilidades identificadas + mitigação</td><td><span class="chip missing">✗</span></td><td><span class="chip ok">✓</span></td><td><span class="chip na">—</span></td></tr>
+<tr><td class="label">Estratégias de correção de erros descritas</td><td><span class="chip missing">✗</span></td><td><span class="chip partial">~</span></td><td><span class="chip na">—</span></td></tr>
+
+<tr><td class="section" colspan="4">Seção 6 — Uso de IA generativa</td></tr>
+<tr><td class="label">IAs utilizadas e motivo do uso</td><td><span class="chip missing">✗</span></td><td><span class="chip na">—</span></td><td><span class="chip na">—</span></td></tr>
+<tr><td class="label">Experiências positivas com IA</td><td><span class="chip missing">✗</span></td><td><span class="chip na">—</span></td><td><span class="chip na">—</span></td></tr>
+<tr><td class="label">Experiências negativas com IA</td><td><span class="chip missing">✗</span></td><td><span class="chip na">—</span></td><td><span class="chip na">—</span></td></tr>
+
+<tr><td class="section" colspan="4">Seção 7 — Discussões</td></tr>
+<tr><td class="label">Dificuldades e desafios (entrega 2)</td><td><span class="chip missing">✗</span></td><td><span class="chip na">—</span></td><td><span class="chip na">—</span></td></tr>
+<tr><td class="label">Aprendizados importantes (entrega 2)</td><td><span class="chip missing">✗</span></td><td><span class="chip na">—</span></td><td><span class="chip na">—</span></td></tr>
+<tr><td class="label">Anexo 2 — slides da apresentação 2</td><td><span class="chip missing">✗</span></td><td><span class="chip na">—</span></td><td><span class="chip na">—</span></td></tr>
+
+<tr><td class="section" colspan="4">Funcionalidades — user stories vs. implementação</td></tr>
+<tr><td class="label">US-NOT-001/002 — feed de notícias + detalhe</td><td><span class="chip ok">✓</span></td><td><span class="chip ok">✓</span></td><td><span class="chip ok">✓</span></td></tr>
+<tr><td class="label">US-NOT-003 — filtro por categoria</td><td><span class="chip ok">✓</span></td><td><span class="chip ok">✓</span></td><td><span class="chip partial">~</span></td></tr>
+<tr><td class="label">US-NOT-004 — curador edita/publica notícia</td><td><span class="chip ok">✓</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+<tr><td class="label">US-EVT-001/002 — calendário + detalhe de evento</td><td><span class="chip ok">✓</span></td><td><span class="chip ok">✓</span></td><td><span class="chip ok">✓</span></td></tr>
+<tr><td class="label">US-EVT-003 — adicionar evento à agenda</td><td><span class="chip ok">✓</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+<tr><td class="label">US-EVT-004 — curador cadastra/edita eventos</td><td><span class="chip ok">✓</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+<tr><td class="label">US-ACV-001/002 — busca de livros + disponibilidade</td><td><span class="chip ok">✓</span></td><td><span class="chip ok">✓</span></td><td><span class="chip ok">✓</span></td></tr>
+<tr><td class="label">US-ACV-003 — geolocalização da unidade mais próxima</td><td><span class="chip ok">✓</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+<tr><td class="label">US-ACV-004 — bibliotecário atualiza acervo</td><td><span class="chip ok">✓</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+<tr><td class="label">US-ENG-001 — favoritar livros e eventos</td><td><span class="chip ok">✓</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+<tr><td class="label">US-ENG-002 — lembretes / notificações</td><td><span class="chip ok">✓</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+<tr><td class="label">US-OPS-001 — gerenciar unidades e horários</td><td><span class="chip ok">✓</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+
+<tr><td class="section" colspan="4">Autenticação e login <span class="badge-new">novo</span></td></tr>
+<tr class="new-row"><td class="label">Tela de login (UI implementada)</td><td><span class="chip partial">~</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+<tr class="new-row"><td class="label">Tela de cadastro / registro de usuário</td><td><span class="chip partial">~</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+<tr class="new-row"><td class="label">Fluxo de recuperação de senha</td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+<tr class="new-row"><td class="label">Tela de perfil pós-login (dados do usuário)</td><td><span class="chip ok">✓</span></td><td><span class="chip partial">~</span></td><td><span class="chip partial">~</span></td></tr>
+<tr class="new-row"><td class="label">Proteção de rotas (redirect se não autenticado)</td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+
+<tr><td class="section" colspan="4">Validação de campos de login <span class="badge-new">novo</span></td></tr>
+<tr class="new-row"><td class="label">Validação de formato de e-mail</td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+<tr class="new-row"><td class="label">Validação de senha (mínimo de caracteres)</td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+<tr class="new-row"><td class="label">Mensagens de erro descritivas nos campos</td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+<tr class="new-row"><td class="label">Prevenção de submit com campos vazios</td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+<tr class="new-row"><td class="label">Rate limiting / bloqueio após tentativas falhas</td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+
+<tr><td class="section" colspan="4">Segurança — JWT e sessão <span class="badge-new">novo</span></td></tr>
+<tr class="new-row"><td class="label">Autenticação via JWT (Supabase Auth)</td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+<tr class="new-row"><td class="label">Token armazenado de forma segura (não em localStorage)</td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+<tr class="new-row"><td class="label">Refresh token / expiração de sessão tratada</td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+<tr class="new-row"><td class="label">RLS (Row Level Security) no Supabase configurado</td><td><span class="chip missing">✗</span></td><td><span class="chip partial">~</span></td><td><span class="chip missing">✗</span></td></tr>
+<tr class="new-row"><td class="label">Roles por tipo de usuário (cidadão / curador / admin)</td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td><td><span class="chip missing">✗</span></td></tr>
+<tr class="new-row"><td class="label">Headers de segurança (CSP, X-Frame-Options etc.)</td><td><span class="chip missing">✗</span></td><td><span class="chip partial">~</span></td><td><span class="chip missing">✗</span></td></tr>
+<tr class="new-row"><td class="label">Documentado na seção 5 do relatório</td><td><span class="chip missing">✗</span></td><td><span class="chip ok">✓</span></td><td><span class="chip na">—</span></td></tr>
+
+</tbody>
+</table>
+
+<div class="note">
+  <strong>Sobre login + JWT:</strong> O Supabase já inclui autenticação com JWT nativamente — vocês não precisam implementar JWT do zero, só precisam ativar o <code>supabase.auth.signInWithPassword()</code> e conectar ao estado da aplicação. O RLS aparece mencionado no SECURITY_AUDIT.md mas não está configurado nas migrations. O ponto mais delicado é <strong>não guardar o token em localStorage</strong> (vulnerável a XSS) — o Supabase JS client já gerencia isso via cookies httpOnly se configurado corretamente. Tudo isso precisa entrar na seção 5 do relatório.
+</div>
+</div>
