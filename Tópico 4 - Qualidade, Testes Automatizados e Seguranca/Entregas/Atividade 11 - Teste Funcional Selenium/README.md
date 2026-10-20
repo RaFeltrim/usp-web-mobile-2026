@@ -19,6 +19,7 @@
 | [`relatorio_testes_selenium.md`](./relatorio_testes_selenium.md) | Relatório técnico completo de testes com tabela de casos de teste e bugs |
 | [`relatorio_testes_selenium.pdf`](./relatorio_testes_selenium.pdf) | Versão formal em PDF para submissão |
 | [`cadastro-usuario-testes-rafaelfeltrim.side`](./cadastro-usuario-testes-rafaelfeltrim.side) | Projeto exportado do Selenium IDE com a suíte de testes executável |
+| [`teste.side`](./teste.side) | Suíte de testes Selenium preliminar de validação de campos |
 | [`Atividade-08-06.zip`](./Atividade-08-06.zip) | Pacote compactado original da entrega |
 | [`index.html`](./index.html) e [`js/`](./js/) | Formulário web interativo utilizado como aplicação sob teste |
 | [`evidencias/`](./evidencias/) | Pasta com 17 capturas de tela comprovando a execução de cada caso de teste |

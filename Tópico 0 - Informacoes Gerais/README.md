@@ -32,3 +32,4 @@
 | [`Ementa_Oficial_JúpiterWeb_SSC0961.pdf`](./Material%20de%20Apoio/Ementa_Oficial_JúpiterWeb_SSC0961.pdf) | Ficha oficial de objetivos, ementa e programa da disciplina no JúpiterWeb |
 | [`Júpiter_Web_Comprovante_Matricula.pdf`](./Material%20de%20Apoio/Júpiter_Web_Comprovante_Matricula.pdf) | Comprovante de Matrícula no Sistema de Gestão Acadêmica da Pró-Reitoria |
 | [`Historico_Escolar_USP.pdf`](./Material%20de%20Apoio/Historico_Escolar_USP.pdf) | Histórico escolar oficial emitido pelo ICMC-USP |
+| [`Regras_Aluno_Especial_ICMC_USP.pdf`](./Material%20de%20Apoio/Regras_Aluno_Especial_ICMC_USP.pdf) | Regulamento oficial para alunos especiais da Pós-Graduação do ICMC-USP |
