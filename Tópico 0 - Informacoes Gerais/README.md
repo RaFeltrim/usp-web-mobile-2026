@@ -33,3 +33,9 @@
 | [`Júpiter_Web_Comprovante_Matricula.pdf`](./Material%20de%20Apoio/Júpiter_Web_Comprovante_Matricula.pdf) | Comprovante de Matrícula no Sistema de Gestão Acadêmica da Pró-Reitoria |
 | [`Historico_Escolar_USP.pdf`](./Material%20de%20Apoio/Historico_Escolar_USP.pdf) | Histórico escolar oficial emitido pelo ICMC-USP |
 | [`Regras_Aluno_Especial_ICMC_USP.pdf`](./Material%20de%20Apoio/Regras_Aluno_Especial_ICMC_USP.pdf) | Regulamento oficial para alunos especiais da Pós-Graduação do ICMC-USP |
+| [`Requisitos_Disciplina_SSC0961.pdf`](./Material%20de%20Apoio/Requisitos_Disciplina_SSC0961.pdf) | Requisitos oficiais da disciplina SSC0961 (Curso 55051 BSI e 97001 Eng. Comp.) |
+| [`Horario_BSI_2026_1_ICMC_USP.pdf`](./Material%20de%20Apoio/Horario_BSI_2026_1_ICMC_USP.pdf) | Grade horária oficial BSI 2026-1 ICMC-USP contemplando SSC0961 |
+| [`Grade_Curricular_BSI_ICMC_USP.pdf`](./Material%20de%20Apoio/Grade_Curricular_BSI_ICMC_USP.pdf) | Matriz e grade curricular oficial do Bacharelado em Sistemas de Informação ICMC-USP |
+| [`Pedido_Aproveitamento_Estudos_SSC0961.pdf`](./Material%20de%20Apoio/Pedido_Aproveitamento_Estudos_SSC0961.pdf) | Formulário oficial de pedido de aproveitamento/dispensa de estudos (nota 8.3 / 60h) |
+| [`aproveitamento_estudos.xlsx`](./Material%20de%20Apoio/aproveitamento_estudos.xlsx) | Planilha base do pedido de aproveitamento de estudos da disciplina |
+
